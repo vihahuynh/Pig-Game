@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <title>Pig Game</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </header>
+  <body>
+    <h1 class="game-name">PIG GAME</h1>
+    <main>
+      <section class="player player-0">
+        <h3 class="name name-0">🐷</h3>
+        <h1 class="score score-0">0</h1>
+        <div class="current">
+          <p class="current-label">CURRENT</p>
+          <p class="current-score current-score-0">0</p>
+        </div>
+      </section>
+      <section class="player player-1 player-inactive">
+        <h3 class="name name-1">🐗</h3>
+        <h1 class="score score-1">0</h1>
+        <div class="current">
+          <p class="current-label">CURRENT</p>
+          <p class="current-score current-score-1">0</p>
+        </div>
+      </section>
+      <img class="dice" alt="dice" src="images/dice-5.png" />
+      <button class="btn btn-new">🆕 NEW GAME 🆕</button>
+      <button class="btn btn-roll">🎲 ROLL DICE 🎲</button>
+      <button class="btn btn-hold">👈 HOLD 👉</button>
+    </main>
+    <script src="index.js" charset="utf-8"></script>
+  </body>
+  <footer>Created by Nemo</footer>
+</html>
