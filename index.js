@@ -73,7 +73,7 @@ btnHold.click(() => {
     currentScore = 0;
     $(`.score-${player}`).text(scores[player]);
     $(`.current-score-${player}`).text(currentScore);
-    if (scores[player] >= 20) {
+    if (scores[player] >= 100) {
       winSound.play();
       isPlaying = false;
       $(`.score-${player}`).text("WIN!");
